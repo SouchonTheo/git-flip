@@ -2,6 +2,14 @@
 
 `git-flip` is a CLI tool designed to help developers quickly switch between multiple Git accounts. It automates the process of updating SSH keys and Git configurations, making it easier to manage multiple identities for different projects or organizations.
 
+## Installation
+
+Run the following command to install `git-flip`:
+
+```bash
+curl -sSfL https://raw.githubusercontent.com/SouchonTheo/git-flip/main/install.sh | sh
+```
+
 ## Features
 
 - Automatically removes existing SSH keys and adds the appropriate one for the selected account.
